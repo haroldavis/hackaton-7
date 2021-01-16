@@ -1,0 +1,89 @@
+.container{
+    max-width: 90%;
+    margin:  0 auto;
+}
+
+
+header{
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+header .container{
+    height: 50%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    padding: 0 10px;
+}
+
+.brand-image{
+    text-align: center;
+    background-color: lightcoral;
+    background-size: cover;
+    height: 50%;
+}
+
+.brand-image h1{
+    margin: 10px 0;
+}
+
+.brand-image p{
+    width: 70%;
+    margin: auto;
+}
+
+main{
+    height: 600px;
+}
+
+.input-search{
+    width: 90%;
+    text-align: center;
+}
+
+.input-search input{
+    width: 70%;
+}
+
+.section-one{
+
+}
+
+.article-main{
+    display: flex;
+}
+
+.article-main_description{
+    width: 50%;
+}
+
+.article-main_image{
+    width: 50%;
+}
+
+.groups-articles article{
+    display: flex;
+
+}
+
+.article-articles__card{
+    width: 33.3%;
+}
+@media screen and (max-width: 998px){
+    font-size: 10px;
+}
+
+@media screen and (max-width: 400px){
+    font-size: 10px;
+}
